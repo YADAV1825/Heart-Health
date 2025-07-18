@@ -4,8 +4,8 @@ from fpdf import FPDF
 import google.generativeai as genai
 import threading
 
-# ✅ Gemini API Key
-API_KEY = "AIzaSyCU5a3YoiUTzmVCaNAvum9NGbxo2a-fdYQ"
+# ✅ Gemini API Key PLEASE ADD YOUR I CAN'T SHARE MINE WITH YOU SORRY
+API_KEY = "YOUR API KEY" 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.5-pro")
 
